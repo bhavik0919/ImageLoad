@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0CBF1E31382922500008EBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CBF1E21382922500008EBB /* UIKit.framework */; };
+		F0CBF1E51382922500008EBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CBF1E41382922500008EBB /* Foundation.framework */; };
+		F0CBF1E71382922500008EBB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CBF1E61382922500008EBB /* CoreGraphics.framework */; };
+		F0CBF1ED1382922600008EBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0CBF1EB1382922600008EBB /* InfoPlist.strings */; };
+		F0CBF1F01382922600008EBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CBF1EF1382922600008EBB /* main.m */; };
+		F0CBF1F31382922600008EBB /* ImageLoadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CBF1F21382922600008EBB /* ImageLoadAppDelegate.m */; };
+		F0CBF1F61382922600008EBB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0CBF1F41382922600008EBB /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F0CBF1DE1382922500008EBB /* ImageLoad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageLoad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0CBF1E21382922500008EBB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F0CBF1E41382922500008EBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F0CBF1E61382922500008EBB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F0CBF1EA1382922600008EBB /* ImageLoad-Info.plist */ = {isa = PBXFileReference; path = "ImageLoad-Info.plist"; sourceTree = "<group>"; };
+		F0CBF1EC1382922600008EBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F0CBF1EE1382922600008EBB /* ImageLoad-Prefix.pch */ = {isa = PBXFileReference; path = "ImageLoad-Prefix.pch"; sourceTree = "<group>"; };
+		F0CBF1EF1382922600008EBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0CBF1F11382922600008EBB /* ImageLoadAppDelegate.h */ = {isa = PBXFileReference; path = ImageLoadAppDelegate.h; sourceTree = "<group>"; };
+		F0CBF1F21382922600008EBB /* ImageLoadAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageLoadAppDelegate.m; sourceTree = "<group>"; };
+		F0CBF1F51382922600008EBB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0CBF1DB1382922500008EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CBF1E31382922500008EBB /* UIKit.framework in Frameworks */,
+				F0CBF1E51382922500008EBB /* Foundation.framework in Frameworks */,
+				F0CBF1E71382922500008EBB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0CBF1D31382922400008EBB = {
+			isa = PBXGroup;
+			children = (
+				F0CBF1E81382922500008EBB /* ImageLoad */,
+				F0CBF1E11382922500008EBB /* Frameworks */,
+				F0CBF1DF1382922500008EBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0CBF1DF1382922500008EBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0CBF1DE1382922500008EBB /* ImageLoad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0CBF1E11382922500008EBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0CBF1E21382922500008EBB /* UIKit.framework */,
+				F0CBF1E41382922500008EBB /* Foundation.framework */,
+				F0CBF1E61382922500008EBB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0CBF1E81382922500008EBB /* ImageLoad */ = {
+			isa = PBXGroup;
+			children = (
+				F0CBF1F11382922600008EBB /* ImageLoadAppDelegate.h */,
+				F0CBF1F21382922600008EBB /* ImageLoadAppDelegate.m */,
+				F0CBF1F41382922600008EBB /* MainWindow.xib */,
+				F0CBF1E91382922600008EBB /* Supporting Files */,
+			);
+			path = ImageLoad;
+			sourceTree = "<group>";
+		};
+		F0CBF1E91382922600008EBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0CBF1EA1382922600008EBB /* ImageLoad-Info.plist */,
+				F0CBF1EB1382922600008EBB /* InfoPlist.strings */,
+				F0CBF1EE1382922600008EBB /* ImageLoad-Prefix.pch */,
+				F0CBF1EF1382922600008EBB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0CBF1DD1382922500008EBB /* ImageLoad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0CBF1F91382922600008EBB /* Build configuration list for PBXNativeTarget "ImageLoad" */;
+			buildPhases = (
+				F0CBF1DA1382922500008EBB /* Sources */,
+				F0CBF1DB1382922500008EBB /* Frameworks */,
+				F0CBF1DC1382922500008EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageLoad;
+			productName = ImageLoad;
+			productReference = F0CBF1DE1382922500008EBB /* ImageLoad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0CBF1D51382922500008EBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Chakra Interactive Pvt Ltd";
+			};
+			buildConfigurationList = F0CBF1D81382922500008EBB /* Build configuration list for PBXProject "ImageLoad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F0CBF1D31382922400008EBB;
+			productRefGroup = F0CBF1DF1382922500008EBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0CBF1DD1382922500008EBB /* ImageLoad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0CBF1DC1382922500008EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CBF1ED1382922600008EBB /* InfoPlist.strings in Resources */,
+				F0CBF1F61382922600008EBB /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0CBF1DA1382922500008EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CBF1F01382922600008EBB /* main.m in Sources */,
+				F0CBF1F31382922600008EBB /* ImageLoadAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F0CBF1EB1382922600008EBB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0CBF1EC1382922600008EBB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F0CBF1F41382922600008EBB /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0CBF1F51382922600008EBB /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0CBF1F71382922600008EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F0CBF1F81382922600008EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		F0CBF1FA1382922600008EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageLoad/ImageLoad-Prefix.pch";
+				INFOPLIST_FILE = "ImageLoad/ImageLoad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F0CBF1FB1382922600008EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageLoad/ImageLoad-Prefix.pch";
+				INFOPLIST_FILE = "ImageLoad/ImageLoad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0CBF1D81382922500008EBB /* Build configuration list for PBXProject "ImageLoad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0CBF1F71382922600008EBB /* Debug */,
+				F0CBF1F81382922600008EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0CBF1F91382922600008EBB /* Build configuration list for PBXNativeTarget "ImageLoad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0CBF1FA1382922600008EBB /* Debug */,
+				F0CBF1FB1382922600008EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0CBF1D51382922500008EBB /* Project object */;
+}
